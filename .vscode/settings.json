@@ -1,0 +1,213 @@
+{
+  //Files Configurations
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "files.encoding": "utf8",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    // "**/.vscode": true,
+    // "**/settings.json":true,
+    "**/tasks.json": true
+  },
+  "projects.projectsLocation": "C:\\",
+  "projects.showProjectNameInStatusBar": true,
+  "search.useIgnoreFilesByDefault": true,
+  "files.insertFinalNewline": true,
+  "extensions.autoUpdate": true,
+
+  //Editor Configurations
+  "window.zoomLevel": 1,
+  "workbench.sideBar.location": "right",
+  "diffEditor.wordWrap": "on",
+  "trailing-spaces.deleteModifiedLinesOnly": true,
+  "editor.tabCompletion": "onlySnippets",
+  "workbench.colorTheme": "Night Owl",
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 0,
+  "editor.wordWrap": "on",
+  "editor.wrappingIndent": "same",
+  "editor.rulers": [
+    {
+      "column": 80,
+      "color": "#00ff0050"
+    },
+    100, // <- a ruler in the default color or as customized (with "editorRuler.foreground") at column 100
+    {
+      "column": 120,
+      "color": "#ff000050"
+    }
+  ],
+  "editor.wordWrapColumn": 80,
+  "editor.wrappingStrategy": "advanced",
+  "workbench.welcome.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.folders.theme": "specific",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.tabCloseButton": "left",
+  "window.restoreFullscreen": true,
+  "window.menuBarVisibility": "toggle",
+
+  //Live Server Configurations
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.fullReload": true,
+  "liveServer.settings.root": "/src",
+  "liveSassCompile.settings.includeItems": [
+    "scss/vendors/_base.scss",
+    "scss/vendors/_variables.scss",
+    "scss/main.scss"
+  ],
+  "liveSassCompile.settings.autoprefix": [
+    "> 1%",
+    "last 3 version",
+    "Chrome >= 35",
+    "Firefox >= 38",
+    "Edge >= 10",
+    "Explorer >= 10",
+    "ie >= 10",
+    "iOS >= 8",
+    "Safari >= 8",
+    "Android 2.3",
+    "Android >= 4",
+    "Opera >= 12"
+  ],
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/src/assets/css"
+    }
+  ],
+  "liveServer.settings.port": 5502,
+
+  //Other Configurations
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "git.enabled": true,
+  "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
+  "composer.enabled": true,
+  "composer.executablePath": "C:\\Users\\Afshin_\\AppData\\Roaming\\Composer\\vendor\\bin\\composer.bat",
+
+  //Extensions Configurations
+  "php.suggest.basic": false,
+  "php.executablePath": "C:\\Program Files\\php828\\php.exe",
+  "php.validate.executablePath": "C:\\Program Files\\php828\\php.exe",
+  "eslint.validate": ["javascript"],
+  "extensions.ignoreRecommendations": true,
+  "auto-rename-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "twig",
+    "html",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (Eex)"
+  ],
+  "auto-close-tag.enableAutoCloseTag": true,
+  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "twig",
+    "html",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (Eex)"
+  ],
+  "editor.bracketPairColorization.enabled": true,
+  "todo-tree.general.showActivityBarBadge": true,
+  "todo-tree.general.tags": ["NOTE", "TODO", "FIXME", "MARK", "[ ]", "[x]"],
+  "todo-tree.highlights.defaultHighlight": {
+    "type": "tag",
+    "fontWeight": "bold",
+    "foreground": "#000000",
+    "opacity": 90,
+    "gutterIcon": true
+  },
+  "todo-tree.highlights.customHighlight": {
+    "NOTE": {
+      "background": "#FFA500",
+      "iconColour": "#FFA500",
+      "icon": "file"
+    },
+    "TODO": {
+      "background": "#FFD703",
+      "iconColour": "#FFD703",
+      "icon": "tasklist"
+    },
+    "FIXME": {
+      "background": "#FF01FF",
+      "iconColour": "#FF01FF",
+      "icon": "bug"
+    },
+    "MARK": {
+      "background": "#157EFB",
+      "iconColour": "#157EFB",
+      "icon": "tag"
+    },
+    "[ ]": {
+      "background": "#ff000080",
+      "iconColour": "#ff000080",
+      "icon": "square"
+    },
+    "[x]": {
+      "background": "#00ff0080",
+      "iconColour": "#00ff0080",
+      "icon": "square-fill"
+    }
+  },
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "workbench.editor.tabActionLocation": "left",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.autoIndent": "full",
+  "editor.colorDecorators": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": "active",
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.glyphMargin": true,
+  "editor.tabSize": 4,
+  "editor.indentSize": "tabSize",
+  "editor.inlineSuggest.enabled": true,
+
+  "editor.fontFamily": "'FiraCode', 'Inconsolata', monospace",
+  "svgPreview.style": {
+    "html": {
+      "background-position": "0 0, 13px 13px",
+      "background-size": "26px 26px",
+      "background-image": "linear-gradient(45deg, #141414 25%, transparent 25%, transparent 75%, #141414 75%, #141414), linear-gradient(45deg, #141414 25%, transparent 25%, transparent 75%, #141414 75%, #141414)"
+    }
+  }
+}

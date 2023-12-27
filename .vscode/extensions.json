@@ -1,0 +1,24 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "sdras.night-owl",
+    "ritwickdey.LiveServer",
+    "glenn2223.live-sass",
+    "PKief.material-icon-theme",
+    "esbenp.prettier-vscode",
+    "Gruntfuggly.todo-tree",
+    "bmewburn.vscode-intelephense-client",
+    "formulahendry.auto-rename-tag",
+    "formulahendry.auto-close-tag",
+    "dzhavat.bracket-pair-toggler",
+    "rifi2k.format-html-in-php",
+    "formulahendry.vscode-mysql",
+    "mhutchie.git-graph",
+    "yzhang.markdown-all-in-one",
+    "bradlc.vscode-tailwindcss",
+    "SimonSiefke.svg-preview",
+    "usernamehw.errorlens",
+    "softwaredotcom.swdc-vscode",
+    "adpyke.codesnap"
+  ]
+}
